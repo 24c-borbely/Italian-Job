@@ -1,0 +1,47 @@
+body{
+    background-color: #eff2f1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.introduction{
+    background-image: url(florence.jpg);
+    border-radius: 0px;
+    margin: 0px;
+    padding: 150px;
+    background-repeat: no-repeat;
+    text-align: justify;
+}
+
+.introductiontext{
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.title{
+    text-align: center;
+    font-size: large;
+}
+
+.monumentslist{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3, 18rem);
+    padding: 20px;
+    margin: 40px auto;
+    gap: 100px;
+    justify-content: center;
+}
+
+.card{
+    margin: 0;
+    grid-column: span 1fr;
+}
+
+.card-body{ 
+    padding: 15px;
+    background-color: white;
+}
+
