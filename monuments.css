@@ -3,6 +3,10 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.top{
+    background-color: #6B9AC4
+}
+
 .introduction{
     background-image: url(florence.jpg);
     border-radius: 0px;
