@@ -8,7 +8,7 @@ body{
 }
 
 .introduction{
-    background-image: url(florence.jpg);
+    background-image: url(tourist.webp);
     border-radius: 0px;
     margin: 0px;
     padding: 150px;
@@ -26,22 +26,21 @@ body{
 
 .title{
     text-align: center;
-    font-size: 30px;
 }
 
 .titletext{
+    font-size: 30px;
     color: #3fc47b
 }
 
-.monumentslist{
+.activitieslist{
     display: grid;
     text-align: center;
-    grid-template-columns: repeat(3, 18rem);
+    grid-template-columns: repeat(4, 18rem);
     padding: 20px;
     margin: 40px auto;
     gap: 50px;
     justify-content: center;
-    font-size: 17px;
 }
 
 .card{
@@ -54,3 +53,7 @@ body{
     background-color: white;
 }
 
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
